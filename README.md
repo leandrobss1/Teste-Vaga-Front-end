@@ -28,4 +28,4 @@ Segue abaixo as instruções para a execução do teste.
 - Componentização
 - Alcance dos objetivos propostos
 
-**Boa sorte! ;)**
+**Boa sorte! ;**
