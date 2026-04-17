@@ -37,6 +37,15 @@ export const CategoriesTabs = styled.div`
   margin-bottom: 20px;
 `;
 
+export const CategoriesInfo = styled.span`
+  display: flex;
+  align-items: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #3f3f40;
+`;
+
 export const TabItem = styled.button`
   flex: 1;
   background: #fff;
@@ -119,7 +128,7 @@ export const CarrouselContainerWrapper = styled.div`
 export const CarrouselWrapper = styled.div`
   display: flex;
   justify-content: center;
-  padding: 20px 12px;
+  padding: 10px 12px;
 `;
 
 export const CarrouselProductCard = styled.div`

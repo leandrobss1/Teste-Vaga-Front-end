@@ -3,6 +3,8 @@ import Main from "./components/Main/Main.tsx";
 import Header from "./components/Header/Header.tsx";
 import { GlobalStyles } from "./GlobalStyles.ts";
 import { ShowCase } from "./components/Carrousel/ShowCase.tsx";
+import Cards from "./components/Banner/Cards.tsx";
+import { NavigationBrands } from "./components/Brands/NavigationBrands.tsx";
 
 function App() {
   return (
@@ -12,6 +14,13 @@ function App() {
       <Header />
       <Main />
       <ShowCase />
+      <Cards />
+
+      <ShowCase showCategories={false} showCategoriesInfo={true} />
+      <Cards />
+
+      <NavigationBrands />
+      <ShowCase showCategories={false} showCategoriesInfo={true} />
     </>
   );
 }

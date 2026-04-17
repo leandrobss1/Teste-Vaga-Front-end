@@ -12,7 +12,10 @@ import "swiper/css";
 
 import productData from "../../data/products.json";
 
-export function ShowCase() {
+export function ShowCase({
+  showCategories = true,
+  showCategoriesInfo = false,
+}) {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [quantity, setQuantity] = useState(1);
@@ -39,15 +42,18 @@ export function ShowCase() {
     <S.ShowCaseSection>
       <S.SectionTitle>Produtos relacionados</S.SectionTitle>
 
-      <S.CategoriesTabs>
-        <S.TabItem className="active">CELULAR</S.TabItem>
-        <S.TabItem>ACESSÓRIOS</S.TabItem>
-        <S.TabItem>TABLETS</S.TabItem>
-        <S.TabItem>NOTEBOOKS</S.TabItem>
-        <S.TabItem>TVS</S.TabItem>
-        <S.TabItem>VER TODOS</S.TabItem>
-      </S.CategoriesTabs>
+      {showCategories && (
+        <S.CategoriesTabs>
+          <S.TabItem className="active">CELULAR</S.TabItem>
+          <S.TabItem>ACESSÓRIOS</S.TabItem>
+          <S.TabItem>TABLETS</S.TabItem>
+          <S.TabItem>NOTEBOOKS</S.TabItem>
+          <S.TabItem>TVS</S.TabItem>
+          <S.TabItem>VER TODOS</S.TabItem>
+        </S.CategoriesTabs>
+      )}
 
+      {showCategoriesInfo && <S.CategoriesInfo>Ver todos</S.CategoriesInfo>}
       <S.CarrouselContainerWrapper>
         <S.CarrouselContainer>
           <S.NavButton className="custom-prev">
@@ -60,6 +66,7 @@ export function ShowCase() {
 
           <Swiper
             modules={[Navigation]}
+            loop={true}
             navigation={{
               prevEl: ".custom-prev",
               nextEl: ".custom-next",

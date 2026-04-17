@@ -66,7 +66,7 @@ export const ButtonProduct = styled.button`
 
   &:hover {
     color: white;
-    background: #ac8d10;
+    background: #ffd902;
   }
 `;
 
@@ -84,8 +84,6 @@ export const MainImage = styled.img`
   object-fit: cover;
   display: block;
 `;
-
-/*Aqui abaixo começa as estilizações dos cards*/
 
 export const Card = styled.div<{ $background?: string }>`
   width: 128px;

@@ -5,7 +5,7 @@ export const Header = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #FFFFFF;
+  background: #ffffff;
 `;
 
 export const TopBarHeader = styled.div`
@@ -25,11 +25,11 @@ export const TextTopBarHeader = styled.span`
   justify-content: center;
   width: 764px;
   height: 20px;
-  color: #9F9F9F;
+  color: #9f9f9f;
 
   strong {
     padding: 4px;
-    color: #3019B2;
+    color: #3019b2;
   }
 
   img {
@@ -52,8 +52,8 @@ export const MainHeader = styled.div`
   height: 72px;
   padding: 16px 24px;
   color: white;
-  border-top: 1px solid #F0F0F0;
-  border-bottom: 1px solid #F0F0F0;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
 `;
 
 export const Logo = styled.div`
@@ -62,14 +62,13 @@ export const Logo = styled.div`
   gap: 0px;
   font-size: 30px;
   font-weight: 600;
-
 `;
 
 export const LogoCircle = styled.div`
   width: 41.3px;
   height: 41.3px;
   border-radius: 50%;
-  background: #F7CA11;
+  background: #f7ca11;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,9 +78,8 @@ export const LogoCircle = styled.div`
 
 export const LogoTitle = styled.p`
   margin-left: -3px;
-  color: #271C47;
-
-`
+  color: #271c47;
+`;
 
 export const SearchContainerHeader = styled.div`
   flex: 1;
@@ -95,12 +93,12 @@ export const SearchBoxHeader = styled.div`
   border: 1px solid #e5e7eb;
   border-radius: 10px;
   padding: 8px 16px;
-  background: #F6F5F2;
+  background: #f6f5f2;
 `;
 
 export const Input = styled.input`
   flex: 1;
-  background-color: #F6F5F2;
+  background-color: #f6f5f2;
   outline: none;
   border: none;
   font-size: 14px;
@@ -112,7 +110,7 @@ export const Input = styled.input`
 
   &::placeholder {
     font-weight: 600;
-    color: #9F9F9F;
+    color: #9f9f9f;
   }
 `;
 
@@ -120,7 +118,7 @@ export const InputButton = styled.button`
   border: none;
   cursor: pointer;
   background: none;
-`
+`;
 
 export const IconsHeader = styled.div`
   display: flex;
@@ -144,7 +142,7 @@ export const IconButton = styled.button`
   cursor: pointer;
   border: none;
   background: none;
-`
+`;
 
 export const NavHeader = styled.nav`
   display: flex;
@@ -156,14 +154,11 @@ export const NavHeader = styled.nav`
   font-size: 12px;
   gap: 91px;
   padding: 12px 24px;
-  color: #9F9F9F;
+  color: #9f9f9f;
 
   box-shadow:
-    -8px 0 10px -10px #3930131F,
-    8px 0 10px -10px #3930131F;
-;
-
-
+    -8px 0 10px -10px #3930131f,
+    8px 0 10px -10px #3930131f;
 `;
 
 export const NavItemHeader = styled.span`
@@ -174,10 +169,8 @@ export const NavItemHeader = styled.span`
   transition: 0.2s;
   font-size: 12px;
 
-
   &:hover {
     transform: scale(1.1);
-
   }
 
   img {
@@ -191,7 +184,7 @@ export const NavItemHeader = styled.span`
   }
 
   strong {
-  font-weight: 600;
-  color: #3019B2;
+    font-weight: 600;
+    color: #3019b2;
   }
 `;
