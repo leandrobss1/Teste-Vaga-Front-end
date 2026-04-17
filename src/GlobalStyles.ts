@@ -1,0 +1,19 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyles = createGlobalStyle`
+
+ body {
+    width: 1440px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+   
+    strong {
+    color: #3019B2;
+  }
+}`
