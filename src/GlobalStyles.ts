@@ -10,10 +10,5 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins, sans-serif;
-    font-weight: 600;
-   
-    strong {
-    color: #3019B2;
-  }
+    font-family: "Poppins", sans-serif;
 }`

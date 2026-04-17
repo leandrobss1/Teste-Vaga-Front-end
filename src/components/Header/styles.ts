@@ -29,6 +29,7 @@ export const TextTopBarHeader = styled.span`
 
   strong {
     padding: 4px;
+    color: #3019B2;
   }
 
   img {
@@ -60,6 +61,8 @@ export const Logo = styled.div`
   align-items: center;
   gap: 0px;
   font-size: 30px;
+  font-weight: 600;
+
 `;
 
 export const LogoCircle = styled.div`
@@ -107,8 +110,8 @@ export const Input = styled.input`
     height: 28px;
   }
 
-  placeholder {
-    font-weight: 500;
+  &::placeholder {
+    font-weight: 600;
     color: #9F9F9F;
   }
 `;
@@ -149,6 +152,8 @@ export const NavHeader = styled.nav`
   justify-content: center;
   width: 1280px;
   height: 40px;
+  font-weight: 600;
+  font-size: 12px;
   gap: 91px;
   padding: 12px 24px;
   color: #9F9F9F;
@@ -169,6 +174,7 @@ export const NavItemHeader = styled.span`
   transition: 0.2s;
   font-size: 12px;
 
+
   &:hover {
     transform: scale(1.1);
 
@@ -182,5 +188,10 @@ export const NavItemHeader = styled.span`
 
   &:hover img {
     transform: scale(1.1);
+  }
+
+  strong {
+  font-weight: 600;
+  color: #3019B2;
   }
 `;

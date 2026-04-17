@@ -8,7 +8,9 @@ import Heart from '../../assets/Heart.svg'
 import CreditCard from '../../assets/CreditCard.svg'
 import ShieldCheck from '../../assets/ShieldCheck.svg'
 import Truck from '../../assets/Truck.svg'
-export default function Header() {
+
+
+export const Header: React.FC = () => {
   return (
     <S.Header>
 
@@ -55,3 +57,5 @@ export default function Header() {
     </S.Header>
   );
 }
+
+export default Header;
