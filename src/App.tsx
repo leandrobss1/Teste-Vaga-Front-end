@@ -5,6 +5,7 @@ import { GlobalStyles } from "./styles/GlobalStyles.ts";
 import { ShowCase } from "./components/Carrousel/ShowCase.tsx";
 import Cards from "./components/Banner/Cards.tsx";
 import { NavigationBrands } from "./components/Brands/NavigationBrands.tsx";
+import { Footer } from "./components/Footer/Footer.tsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
       <NavigationBrands />
       <ShowCase showCategories={false} showCategoriesInfo={true} />
+      <Footer />
     </>
   );
 }
