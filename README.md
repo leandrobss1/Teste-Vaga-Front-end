@@ -28,25 +28,26 @@ Essa abordagem foi escolhida para melhorar a escalabilidade, organização e man
 public/
 
 src/
-├── assets/
-│ ├── img/
-│ ├── svg/
+  assets/
+    img/
+    svg/
 
-├── components/
-│ ├── Footer/
-│ ├── ShowCase/
+  components/
+    Footer/
+    ShowCase/
 
-├── data/
+  data/
 
-├── styles/
-│ ├── GlobalStyles.ts
+  styles/
+    GlobalStyles.ts
 
-├── types/
+  types/
 
-├── App.tsx
-├── main.tsx
-└── vite-env.d.ts
+  App.tsx
+  main.tsx
+  vite-env.d.ts
 
+public/
 index.html
 package.json
 tsconfig.json
