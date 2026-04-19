@@ -1,5 +1,8 @@
 import * as S from "./styles";
 import { navigationBrands } from "../../data/navigationBrands";
+import Facebook from "../../assets/svg/Facebook.svg";
+import Instagram from "../../assets/svg/Instagram.svg";
+import Linkedin from "../../assets/svg/Linkedin.svg";
 
 export const Footer: React.FC = () => {
   const brand = navigationBrands[0];
@@ -38,9 +41,15 @@ export const Footer: React.FC = () => {
           </S.BrandText>
 
           <S.Socials>
-            <S.SocialItem>IG</S.SocialItem>
-            <S.SocialItem>FB</S.SocialItem>
-            <S.SocialItem>IN</S.SocialItem>
+            <S.SocialItem>
+              <img src={Instagram} />
+            </S.SocialItem>
+            <S.SocialItem>
+              <img src={Facebook} />
+            </S.SocialItem>
+            <S.SocialItem>
+              <img src={Linkedin} />
+            </S.SocialItem>
           </S.Socials>
         </S.Brand>
 

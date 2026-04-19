@@ -90,10 +90,12 @@ export const FooterMain = styled.div`
 `;
 
 export const Brand = styled.div`
-  max-width: 250px;
+  width: 354px;
+  height: 159px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 20px;
 `;
 
 export const BrandTitle = styled.h3`
@@ -101,52 +103,61 @@ export const BrandTitle = styled.h3`
 `;
 
 export const BrandText = styled.p`
-  font-size: 13px;
-  color: #666;
-  line-height: 1.4;
+  font-size: 14px;
+  color: #3f3f40;
+  line-height: 100%;
 `;
 
 export const Socials = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 26px;
   margin-top: 15px;
 `;
 
 export const SocialItem = styled.div`
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  background: #ddd;
+  background: none;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 12px;
   cursor: pointer;
-
-  &:hover {
-    background: #ccc;
-  }
 `;
 
 export const Links = styled.div`
   display: flex;
-  gap: 80px;
+  flex: 1;
+  margin-top: 40px;
+  width: 631px;
+  height: 116px;
+  gap: 100px;
 `;
 
 export const LinkGroup = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
+  line-height: 16px;
+  width: 100%;
+  height: 100%;
 `;
 
 export const LinkTitle = styled.h4`
-  margin-bottom: 10px;
+  margin-bottom: 1px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #222222b5;
+  line-height: 16px;
 `;
 
 export const LinkItem = styled.p`
-  font-size: 13px;
-  color: #666;
+  font-size: 14px;
+  color: #222222b5;
   cursor: pointer;
+  line-height: 16px;
+  white-space: nowrap;
 
   &:hover {
     color: #000;
@@ -177,6 +188,6 @@ export const InputGroup = styled.div`
 `;
 
 export const BrandImg = styled.img`
-  width: 120px;
-  height: auto;
+  width: 164px;
+  height: 48px;
 `;
