@@ -25,33 +25,34 @@ Essa abordagem foi escolhida para melhorar a escalabilidade, organização e man
 
 # Estrutura do projeto
 
-public/
+- public/
 
-src/
-  assets/
-    img/
-    svg/
+- src/
 
-  components/
-    Footer/
-    ShowCase/
+- assets/
+- img/
+- svg/
 
-  data/
+- components/
+- Footer/
+- ShowCase/
 
-  styles/
-    GlobalStyles.ts
+- data/
 
-  types/
+- styles/
+- GlobalStyles.ts
 
-  App.tsx
-  main.tsx
-  vite-env.d.ts
+- types/
 
-public/
-index.html
-package.json
-tsconfig.json
-vite.config.ts
+- App.tsx
+- main.tsx
+- vite-env.d.ts
+
+- public/
+- index.html
+- package.json
+- tsconfig.json
+- vite.config.ts
 
 # Como executar o projeto
 
